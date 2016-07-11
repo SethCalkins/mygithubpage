@@ -110,21 +110,14 @@
       ]
     }
   ],
-  "awards": [
-    {
-      "title": "Award",
-      "date": "2014-11-01",
-      "awarder": "Company",
-      "summary": "There is no spoon."
-    }
-  ],
+  "awards": [],
   "publications": [
     {
-      "name": "Publication",
-      "publisher": "Company",
-      "releaseDate": "2014-10-01",
-      "website": "http://publication.com",
-      "summary": "Description..."
+      "name": "DISC Personality Profile",
+      "publisher": "",
+      "releaseDate": "",
+      "website": "http://sethcalkins.me/personality-profile.html",
+      "summary": "Personality Profile"
     }
   ],
   "skills": [

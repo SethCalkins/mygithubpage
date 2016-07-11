@@ -26,7 +26,9 @@
     {
       "company": "Liquid Communications",
       "position": "IT Business Analyst",
+      "website": "",
       "startDate": "2015-01-05",
+      "endDate": "",
       "summary": "",
       "highlights": [
         "Develop proper planning of corporate infrastructure by prioritizing IT investments, performing risk mitigation, managing internal software development and application deployment, and providing technical project oversight.",
@@ -43,8 +45,8 @@
       "company": "Creative Solutions Consulting",
       "position": "System Analyst",
       "website": "http://company.com",
-      "startDate": "2014-03-01",
-      "endDate": "2015-05-01",
+      "startDate": "2014-03",
+      "endDate": "2015-05",
       "summary": "",
       "highlights": [
         "Utilized troubleshooting and analytical skills to develop viable IT solutions to reduce operational expenses and boost company's competitive edge.",
@@ -60,8 +62,9 @@
     {
       "company": "Creative Solutions Consulting",
       "position": "Personal Development Specialist",
-      "startDate": "2014-03-01",
-      "endDate": "2015-05-01",
+      "website": "",
+      "startDate": "2014-03",
+      "endDate": "2015-05",
       "summary": "Description...",
       "highlights": [
         "Successfully placed .NET Developers (C#, ASP.net, JavaScript, TFS, WebServices etc.), Java/J2EE Developers, Solutions and Enterprise Architects, Business Analyst, PMP Project Managers, C/C++ Developers, C/Unix Developers, Unix/Linux Systems Administrators, Mobile Device Managers, Storage Administrators, Android and iOS developers, designers and test engineers etc.",
@@ -78,8 +81,9 @@
     {
       "company": "Indycom",
       "position": "Strategic Business Development",
-      "startDate": "2011-10-01",
-      "endDate": "2014-03-01",
+      "website": "",
+      "startDate": "2011-10",
+      "endDate": "2014-03",
       "summary": "Description...",
       "highlights": [
         "Conceptualized a highly effective customer database system;to track leads, customers, emails, phone calls, meetings, reminders, and sales opportunities, resulting in a 60% increase of repeat customers.",

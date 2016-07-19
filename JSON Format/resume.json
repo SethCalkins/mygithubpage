@@ -6,7 +6,7 @@
     "email": "sethcalkins@me.com",
     "phone": "(317) 800-9798",
     "website": "http://sethcalkins.me/Personality-Profile",
-    "summary": "",
+    "summary": "Determined Problem solver specializing in Web Development, SEO, Marketing Strategies, Lead and Opportunity Generation,  Process Improvement, information Gathering, Database Design and implementation, IT infrastructure implementation and maintenance and, IT troubleshooting and triage.",
     "location": {
       "address": "",
       "postalCode": "46060",
@@ -19,6 +19,11 @@
         "network": "LinkedIn",
         "username": "SethMCalkins",
         "url": "https://www.linkedin.com/in/sethmcalkins"
+      },
+      {
+        "network": "DISC",
+        "username": "",
+        "url": ""
       }
     ]
   },
@@ -64,10 +69,9 @@
       "website": "",
       "startDate": "2014-03-01",
       "endDate": "2015-05-01",
-      "summary": "Description...",
+      "summary": "Sourced, identified, and assessed top-notch candidates for a diverse range of technical skill levels and functional areas across several geographies. Utilized innovative sourcing strategies to attract the best and brightest talent.",
       "highlights": [
         "Successfully placed .NET Developers (C#, ASP.net, JavaScript, TFS, WebServices etc.), Java/J2EE Developers, Solutions and Enterprise Architects, Business Analyst, PMP Project Managers, C/C++ Developers, C/Unix Developers, Unix/Linux Systems Administrators, Mobile Device Managers, Storage Administrators, Android and iOS developers, designers and test engineers etc.",
-        "Sourced, identified, and assessed top-notch candidates for a diverse range of technical skill levels and functional areas across several geographies. Utilized innovative sourcing strategies to attract the best and brightest talent.",
         "Collaborated with hiring managers and other members of the recruiting team to develop and lead recruiting efforts, effectively generate qualified leads targeted in tough-to-fill Information technology markets.",
         "Assisted with recruitment advertising, incorporating employment brand while recommending new sites/tools to drive timely and cost-efficient hiring with the best talent on the market.",
         "Ensured continuous research on recruitment marketing tools and resources so as to make first class recommendations available to the team.",
@@ -119,25 +123,58 @@
   ],
   "skills": [
     {
-      "name": "",
-      "level": "",
+      "name": "Business Development",
+      "level": "Master",
       "keywords": [
-        "IT Management",
-        "IT Integration",
-        "IT Strategy",
-        "Business Process",
         "Process Improvement",
-        "Requirements Analysis"
+        "Requirements Analysis",
+        "Marketing Strategies",
+        "Lead & Opportunity Generation",
+        "Information Gathering",
+        "Problem Solving"
+      ]
+    },
+    {
+      "name": "Information Technology",
+      "level": "Master",
+      "keywords": [
+        "Database (Saas)",
+        "Data Mining/Scraping",
+        "Automation",
+        "Network Planning",
+        "IT Troubleshooting and Triage"
+      ]
+    },
+    {
+      "name": "Web Development",
+      "level": "Master",
+      "keywords": [
+        "HTML",
+        "CSS",
+        "Javascript",
+        "Search Engine Optimization",
+        "DNS Propagation / Domain Records"
       ]
     }
   ],
   "languages": [],
   "interests": [
     {
-      "name": "Wildlife",
+      "name": "Outdoors",
       "keywords": [
-        "Ferrets",
-        "Unicorns"
+        "Hiking",
+        "Camping",
+        "Rock Climbing",
+        "Backpacking"
+      ]
+    },
+    {
+      "name": "Learning",
+      "keywords": [
+        "Technology Trends",
+        "Open Source API's",
+        "Making difficult tasks easier through technology",
+        "Woodworking"
       ]
     }
   ],

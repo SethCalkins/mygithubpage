@@ -1,1536 +1,462 @@
 <!DOCTYPE html>
+<html lang="en">
 
-<html class="bg-stripped animated fadeIn" dir="ltr">
+
+<!-- Mirrored from localhost:4001/ by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 23 Aug 2016 20:48:16 GMT -->
 <head>
-	<meta content="text/html; charset=utf-8" http-equiv="content-type">
-	<meta charset="utf-8">
+  <meta charset="UTF-8">
+  <title>Seth Calkins</title>
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400|Roboto+Condensed:300,400,700|Roboto:100,300,400,400i,500" rel="stylesheet" type="text/css">
+  <style>
+    body {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  background-color: #f6f6f6;
+}
 
-	<title>&nbsp; Seth Calkins - "Give me some goals and I'll over
-	deliver"</title>
-	<base>
-	<meta content="" name="description">
-	<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+p {
+  display: inline;
+}
 
-	<script src="app/js/vendor/es5-shim.min.js">
-	</script>
-	<script src=
-	"https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js">
-	</script>
-	<link href="app/visualcv.css" rel="stylesheet" type="text/css">
+a,span {
+  color: #4c92c1;
+  text-decoration: none;
+}
+
+.email,.site,.github,.phone-number,.address {
+  margin-bottom: .4em;
+  font-size: 1em;
+}
+
+ul {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.card {
+  /*background-color: #fefefe;
+  box-shadow: 1px 1px 14px -5px rgba(0,0,0,0.5);
+  border-radius: 2px;*/
+  margin-bottom: 15px;
+}
+
+.header.card {
+  margin-top: 15px;
+  margin-right: 15px;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  padding: 0 15px 0 20px;
+  border-bottom: 1px dashed #CFCFCF;
+}
+
+section.card {
+  padding: 15px 15px 22.5px 20px;
+}
+
+.header {
+  overflow: auto;
+  margin-left: 6px;
+  margin-right: 12px;
+}
+
+.skill {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1em;
+  margin-bottom: .4em;
+  color: #4c92c1;
+  font-weight: 400;
+}
+
+.skills p {
+  font-size: 1em;
+}
+
+#name {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 3em;
+  font-weight: 400;
+  color: #555;
+  float: left;
+  margin: .1em .1em .2em;
+}
+
+#resume-container {
+  width: 900px;
+  margin: 0 auto;
+}
+
+.section-header {
+  margin-top: 0;
+  margin-bottom: .4em;
+  font-family: 'Open Sans';
+  font-weight: 400;
+  font-size: 1.2em;
+}
+
+.left-content {
+  float: left;
+  width: 32%;
+  margin-left: 6px;
+}
+
+.left-content .section-header {
+  font-weight: 400;
+  color: #F1573C;
+  text-transform: uppercase;
+}
+
+.left-content .section-content {
+  font-weight: 300;
+}
+
+.left-content .title {
+  font-weight: 400;
+  margin-bottom: .5em;
+  color: #4c92c1;
+}
+
+.left-content .card {
+  border-bottom: 1px dashed #CFCFCF;
+}
+
+.right-content {
+  width: 64%;
+  margin-right: 15px;
+  float: right;
+}
+
+.right-content .section-header {
+  /*color: #000;*/
+  color: #F1573C;
+  text-transform: uppercase;
+}
+
+.right-content {
+  border-left: 1px dashed #CFCFCF;
+}
+
+.section-content {
+  overflow: auto;
+}
+
+.title {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1em;
+  font-weight: 300;
+  margin-bottom: .2em;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+.duration {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  color: #3c82b1;
+  margin-top: .2em;
+  margin-bottom: .3em;
+}
+
+.occupation {
+  font-size: 1em;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  margin-bottom: .5em;
+}
+
+.languages {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1em;
+  font-weight: 300;
+}
+
+.list {
+  list-style-type: none;
+  font-size: 1em;
+}
+
+.location {
+  font-size: 1em;
+  font-weight: 300;
+  margin-bottom: .1em;
+}
+
+.left {
+  float: left;
+  width: 45%;
+  clear: both;
+}
+
+.right {
+  float: right;
+  width: 55%;
+}
+
+ul.list {
+  list-style-type: circle;
+  padding-left: 1.1rem;
+}
+
+ul.list li {
+  line-height: 135%;
+  margin-bottom: .2em;
+}
+
+ul.list li:before {
+  display: inline-block;
+  width: 0;
+  margin-left: 0;
+}
+
+.project,.employment,.education,.skills {
+  margin-bottom: .8em;
+}
+
+.education-info .title {
+  margin-bottom: .2em;
+  line-height: 130%;
+}
+
+.education.last {
+  margin-bottom: .8em !important;
+}
+
+.education .grade {
+  font-size: 1em;
+}
+
+.project-info {
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+.last {
+  margin-bottom: 0!important;
+}
+
+.term {
+  font-size: 1.75em;
+  font-weight: 200;
+  color: #000;
+}
+
+#skills-container,.contact {
+  margin-bottom: 0;
+}
+
+.interests,.subtitle {
+  font-size: 1em;
+  margin-bottom: .2em;
+}
+
+.project .title,.employment .title {
+  color: #4c92c1;
+  font-weight: 400;
+}
+
+.employment .summary {
+  font-size: 1em;
+  margin-bottom: .4em;
+}
+
+#awards .summary {
+  font-size: 1em;
+}
+
+#summary {
+  font-size: 1em;
+}
+
+.contact .site {
+  font-size: .9em;
+}
+
+  </style>
 </head>
 
-<body class="cv-viewer" data-cv-id="1208497">
-	<style type="text/css">
-	               .css-crop {
-	                   width: 100%;
-	                   height: 0;
-	                   padding-bottom: 50%;
-	                   background-repeat: no-repeat;
-	               }
-
-	               .css-crop.bg-cover {
-	                   background-size: cover;
-	               /*-ms-behavior: url("/styles/backgroundsize.min.htc"); doesn't work on IE8-9...*/
-	                   background-position: center;
-	               }
-
-	               .css-crop.bg-contain {
-	                   background-size: contain;
-	                   background-position: center;
-	               }
-
-	               .clear-margin {
-	                   margin: 0;
-	                   padding: 0;
-	               }
-
-	               @font-face {
-	                   font-family: 'Open Sans';
-	                   font-weight: 300;
-	                   font-style: normal;
-	                   src: url(fonts/Open-Sans-300/Open-Sans-300.eot);
-	                   src: url(fonts/Open-Sans-300/Open-Sans-300d41d.eot?#iefix) format("embedded-opentype"),local('Open Sans Light'),local(Open-Sans-300),url(fonts/Open-Sans-300/Open-Sans-300.woff2) format("woff2"),url(fonts/Open-Sans-300/Open-Sans-300.woff) format("woff"),url(fonts/Open-Sans-300/Open-Sans-300.ttf) format("truetype"),url(fonts/Open-Sans-300/Open-Sans-300.svg#OpenSans) format("svg");
-	               }
-
-	               @font-face {
-	                   font-family: 'Open Sans';
-	                   font-weight: 600;
-	                   font-style: normal;
-	                   src: url(fonts/Open-Sans-600/Open-Sans-600.eot);
-	                   src: url(fonts/Open-Sans-600/Open-Sans-600d41d.eot?#iefix) format("embedded-opentype"),local('Open Sans Semibold'),local(Open-Sans-600),url(fonts/Open-Sans-600/Open-Sans-600.woff2) format("woff2"),url(fonts/Open-Sans-600/Open-Sans-600.woff) format("woff"),url(fonts/Open-Sans-600/Open-Sans-600.ttf) format("truetype"),url(fonts/Open-Sans-600/Open-Sans-600.svg#OpenSans) format("svg");
-	               }
-
-	               .full-width {
-	                   width: 100%;
-	               }
-
-	               .half-width {
-	                   width: 50%;
-	               }
-
-	               .clickable {
-	                   cursor: pointer;
-	               }
-
-	               .inline {
-	                   display: inline;
-	               }
-
-	               .inline-block {
-	                   display: inline-block !important;
-	               }
-
-	               .nomargin {
-	                   margin: 0 !important;
-	               }
-
-	               .nowrap {
-	                   white-space: nowrap;
-	               }
-
-	               .centered {
-	                   display: block;
-	                   text-align: center;
-	                   margin-left: auto;
-	                   margin-right: auto;
-	               }
-
-	               .first {
-	                   margin-top: 0 !important;
-	               }
-
-	               .last {
-	                   margin-bottom: 0 !important;
-	               }
-
-	               .ellipsis {
-	                   overflow: hidden;
-	                   text-overflow: ellipsis;
-	                   white-space: nowrap;
-	                   display: block;
-	               }
-
-	               .mejs-overlay-button {
-	                   display: none;
-	               }
-
-	               [data-id=new] [data-field=title] {
-	                   display: none;
-	               }
-
-	               .cv-viewer p {
-	                   min-height: 1em;
-	               }
-
-	               .cv-viewer .vcv-header {
-	                   margin: 30px auto;
-	                   max-width: 1020px;
-	                   position: relative;
-	               }
-
-	               .cv-viewer .vcv-header #social-share {
-	                   text-align: right;
-	                   position: absolute;
-	                   left: -80px;
-	                   top: 80px;
-	                   z-index: 1050;
-	                   opacity: 0;
-	               }
-
-	               .cv-viewer .vcv-header #social-share .share-button {
-	                   min-height: 30px;
-	               }
-
-	               .cv-viewer .vcv-header #social-share .share-button.subtle {
-	                   opacity: .75;
-	               }
-
-	               .cv-viewer .vcv-header .banner-top {
-	                   padding-left: 90px;
-	                   position: relative;
-	                   margin-top: -10px;
-	                   margin-bottom: -30px;
-	                   z-index: 0;
-	                   opacity: .5;
-	                   display: inline-block;
-	               }
-
-	               .cv-viewer .vcv-header .banner-top:hover {
-	                   opacity: .8;
-	                   -webkit-transition-property: transform opacity;
-	                   -moz-transition-property: transform opacity;
-	                   transition-property: transform opacity;
-	                   -webkit-transition-duration: .5s;
-	                   -moz-transition-duration: .5s;
-	                   transition-duration: .5s;
-	               }
-
-	               .cv-viewer .vcv-logo {
-	                   height: 40px;
-	                   display: block;
-	               }
-
-	               .cv-viewer .cv-container article .empty {
-	                   display: none !important;
-	               }
-
-	               .cv-viewer footer.vcv-footer {
-	                   margin-top: 100px;
-	                   color: #ccc;
-	                   text-align: center;
-	               }
-
-	               .cv-viewer footer .powered-by {
-	                   margin-top: 0;
-	               }
-
-	               .cv-viewer footer .updated-at {
-	                   opacity: .3;
-	               }
-
-	               .cv-fullscreen {
-	                   position: relative;
-	               }
-
-	               .cv-fullscreen .powered-by a {
-	                   color: #fff;
-	               }
-
-	               .cv-fullscreen .vcv-header {
-	                   display: none;
-	               }
-
-	               .cv-fullscreen .vcv-footer {
-	                   width: 100%;
-	                   position: absolute;
-	                   bottom: 0;
-	                   color: #fff;
-	                   margin-top: 50px;
-	               }
-
-	               .cv-fullscreen .vcv-footer .updated-at {
-	                   display: block;
-	                   margin-bottom: 1em;
-	                   opacity: .75;
-	               }
-
-	               .editor-visible {
-	                   display: none;
-	               }
-
-	               .cv-editor .cv-container {
-	                   margin: 0 auto 100px;
-	               }
-
-	               .cv-editor .cv-container .editor-visible {
-	                   display: block;
-	               }
-
-	               .cv-container,.cv-content {
-	                   opacity: 1 !important;
-	               }
-
-	               .cv-container {
-	                   display: block;
-	                   margin: 0 auto 10px;
-	                   min-height: 500px;
-	                   padding: 50px 6.5%;
-	                   max-width: 1020px;
-	                   background: #fff;
-	                   border-radius: 1px;
-	                   z-index: 10;
-	                   -webkit-box-shadow: 0 0 0 5px rgba(0,0,0,0.15);
-	                   box-shadow: 0 0 0 5px rgba(0,0,0,0.15);
-	               }
-
-	               .cv-container .nowrap-list li {
-	                   white-space: nowrap;
-	               }
-
-	               .cv-container section {
-	                   position: relative;
-	                   word-wrap: break-word;
-	               }
-
-	               .cv-container article h4 {
-	                   overflow: auto;
-	               }
-
-	               .cv-container article:after {
-	                   content: '';
-	                   display: block;
-	                   clear: both;
-	               }
-
-	               .cv-container .main section:first-child .edit-section .fa-arrow-up,.cv-container .cv-content section:first-child .edit-section .fa-arrow-up {
-	                   display: none;
-	               }
-
-	               .cv-container .main section:last-of-type .edit-section .fa-arrow-down,.cv-container .cv-content section:last-of-type .edit-section .fa-arrow-down {
-	                   display: none;
-	               }
-
-	               .cv-container #profile .edit-section {
-	                   display: none;
-	               }
-
-	               .cv-container #profile + section .edit-btn .fa-arrow-up {
-	                   display: none;
-	               }
-
-	               .cv-container #references .date-range {
-	                   display: none !important;
-	               }
-
-	               .cv-container #references .article-body {
-	                   width: 100%;
-	               }
-
-	               .cv-container svg {
-	                   overflow: visible;
-	               }
-
-	               .cv-container table {
-	                   width: 100%;
-	               }
-
-	               .cv-container .morris-hover {
-	                   display: none !important;
-	               }
-
-	               .cv-container input[type=month] {
-	                   position: relative;
-	                   border: none;
-	                   max-width: 100%;
-	                   content: attr(placeholder);
-	                   display: inline-block;
-	               }
-
-	               .cv-container input[type=month]:before {
-	                   content: attr(placeholder);
-	                   position: absolute;
-	               }
-
-	               .cv-container .gallery .asset-thumb {
-	                   display: block;
-	               }
-
-	               .cv-container .asset label.empty {
-	                   display: block !important;
-	               }
-
-	               .cv-container .btn {
-	                   margin-bottom: 15px;
-	               }
-
-	               .cv-container .btn i.subtle {
-	                   opacity: .2;
-	               }
-
-	               .cv-container .btn i {
-	                   opacity: .5;
-	               }
-
-	               .cv-container .btn.btn-glass {
-	                   background-color: rgba(255,255,255,0.15);
-	                   -webkit-box-shadow: 0 3px 0 rgba(0,0,0,0.05);
-	                   box-shadow: 0 3px 0 rgba(0,0,0,0.05);
-	                   border: 1px solid rgba(255,255,255,0.1);
-	                   color: rgba(255,255,255,0.7);
-	               }
-
-	               .cv-container a[href] {
-	                   color: #428bca;
-	               }
-
-	               .cv-container a[href] [data-bind=organization] {
-	                   color: #428bca;
-	               }
-
-	               .cv-container [data-bind=end_date]:before {
-	                   content: ' - ';
-	               }
-
-	               .cv-container .add-section {
-	                   max-width: 850px;
-	                   margin: 0 auto;
-	               }
-
-	               .cv-container .cv-content:after {
-	                   content: '';
-	                   display: block;
-	                   clear: both;
-	               }
-
-	               .cv-container .cv-content .user-thumb {
-	                   display: none;
-	               }
-
-	               .cv-container .cv-content .user-thumb.visible {
-	                   display: inherit;
-	               }
-
-	               .cv-container .asset-thumb {
-	                   position: relative;
-	                   cursor: pointer;
-	                   display: block;
-	               }
-
-	               .cv-container .asset-thumb .asset-overlay {
-	                   position: absolute;
-	                   width: 100%;
-	                   height: 100%;
-	                   top: 0;
-	                   left: 0;
-	                   background-position: center center;
-	                   background-repeat: no-repeat;
-	                   background-size: 15%;
-	                   z-index: 100;
-	                   opacity: .5;
-	               }
-
-	               .cv-container .asset-thumb .asset-overlay:hover {
-	                   opacity: .75;
-	               }
-
-	               .cv-container .asset-thumb .asset-overlay.youtube {
-	                   background-image: url(images/icons/play.png);
-	               }
-
-	               .cv-container .asset-thumb .asset-overlay img {
-	                   page-break-inside: avoid;
-	               }
-
-	               .cv-container .asset label.ellipsis > span {
-	                   overflow: hidden;
-	                   text-overflow: ellipsis;
-	                   white-space: nowrap;
-	                   display: block;
-	               }
-
-	               @media (max-width: 992px) {
-	                   #social-share {
-	                       display: none;
-	                   }
-
-	                   .vcv-header a {
-	                       display: block;
-	                       margin-bottom: 15px;
-	                   }
-
-	                   .vcv-header .vcv-logo {
-	                       display: inline;
-	                   }
-
-	                   .vcv-header .btn {
-	                       width: 100%;
-	                   }
-	               }
-
-	               .pdf .cv-container .chart-container {
-	                   width: 850px;
-	               }
-
-	               .pdf .cv-container .cv-content {
-	                   padding: 0;
-	               }
-
-	               .pdf .cv-container .portfolio .css-crop {
-	                   -webkit-box-shadow: none;
-	                   box-shadow: none;
-	               }
-
-	               .pdf .cv-container .user-thumb {
-	                   -webkit-box-shadow: none;
-	                   box-shadow: none;
-	               }
-
-	               .pdf body,.embed body {
-	                   background: #fff !important;
-	               }
-
-	               .pdf .container,.embed .container {
-	                   padding: 0;
-	                   margin: 0 auto;
-	                   width: 100%;
-	               }
-
-	               .pdf .cv-container,.embed .cv-container {
-	                   padding: 0 !important;
-	                   margin-bottom: 0 !important;
-	                   max-width: 100% !important;
-	                   border: none;
-	                   -webkit-box-shadow: none;
-	                   box-shadow: none;
-	               }
-
-	               .pdf .cv-container section:last-of-type,.embed .cv-container section:last-of-type,.pdf .cv-container section:last-of-type article:last-of-type,.embed .cv-container section:last-of-type article:last-of-type,.pdf .cv-container section:last-of-type article:last-of-type,.embed .cv-container section:last-of-type article:last-of-type,.pdf .cv-container p:last-of-type,.embed .cv-container p:last-of-type,.pdf .cv-container .content-container,.embed .cv-container .content-container,.pdf .cv-container .cv-content,.embed .cv-container .cv-content {
-	                   margin-bottom: 0 !important;
-	                   padding-bottom: 0 !important;
-	               }
-
-	               .pdf .vcv-header,.embed .vcv-header,.pdf .vcv-footer,.embed .vcv-footer {
-	                   display: none;
-	               }
-
-	               .pdf header,.embed header,.pdf .header-text,.embed .header-text {
-	                   page-break-after: avoid;
-	                   page-break-inside: avoid;
-	               }
-
-	               .pdf .no-page-break,.embed .no-page-break,.pdf .css-crop,.embed .css-crop,.pdf pre,.embed pre,.pdf blockquote,.embed blockquote,.pdf img,.embed img,.pdf svg,.embed svg,.pdf .chart-graph,.embed .chart-graph,.pdf .chart-container,.embed .chart-container,.pdf .asset,.embed .asset {
-	                   page-break-inside: avoid;
-	               }
-
-	               .pdf .no-page-break p,.embed .no-page-break p {
-	                   page-break-inside: avoid;
-	               }
-
-	               .pdf thead,.embed thead {
-	                   display: table-header-group;
-	               }
-
-	               .pdf p,.embed p {
-	                   orphans: 4;
-	                   widows: 4;
-	               }
-
-	               @page {
-	                   size: A4 portrait;
-	               }
-
-	               .cv-container {
-	                   font-family: "Open Sans","Century Gothic",CenturyGothic,"Microsoft YaHei New","Microsoft Yahei","微软雅黑",宋体,SimSun,华文细黑,STXihei,黑体,SimHei,sans-serif;
-	                   font-size: 15px;
-	                   max-width: 960px;
-	                   padding: 0;
-	                   color: #000;
-	               }
-
-	               .cv-container .cv-content {
-	                   padding: 5em 10%;
-	               }
-
-	               .cv-container h1,.cv-container h2,.cv-container h3,.cv-container h4,.cv-container h5,.cv-container h6 {
-	                   margin-top: 0;
-	                   margin-bottom: .25em;
-	               }
-
-	               .cv-container h2 {
-	                   overflow: auto;
-	               }
-
-	               .cv-container h1,.cv-container h4 {
-	                   font-weight: 700;
-	               }
-
-	               .cv-container h1,.cv-container h2,.cv-container h3,.cv-container h4 {
-	                   color: #0b5394;
-	               }
-
-	               .cv-container h1 {
-	                   font-size: 250%;
-	                   line-height: 1em;
-	                   margin-bottom: .2em;
-	               }
-
-	               .cv-container h2 {
-	                   font-size: 125%;
-	               }
-
-	               .cv-container h3 {
-	                   font-size: 150%;
-	                   font-weight: 300;
-	               }
-
-	               .cv-container h4 {
-	                   font-size: 100%;
-	               }
-
-	               .cv-container h5 {
-	                   color: #777;
-	                   font-size: 100%;
-	                   font-weight: 300;
-	               }
-
-	               .cv-container h6 {
-	                   font-size: 100%;
-	               }
-
-	               .cv-container p {
-	                   margin-bottom: .6em;
-	               }
-
-	               .cv-container section {
-	                   margin-top: 1.5em;
-	               }
-
-	               .cv-container section > header {
-	                   width: 100%;
-	                   margin-bottom: 1.5em;
-	                   border-bottom: 1px solid #0b5394;
-	               }
-
-	               .cv-container section.profile {
-	                   margin-top: 0;
-	               }
-
-	               .cv-container section .article-headings {
-	                   float: left;
-	                   width: 28%;
-	               }
-
-	               .cv-container section .article-body {
-	                   padding-left: 28%;
-	               }
-
-	               .cv-container article {
-	                   margin-bottom: .75em;
-	               }
-
-	               .cv-container article .article-headings.col-sm-3 {
-	                   width: 21%;
-	                   padding-right: 0;
-	               }
-
-	               .cv-container article .article-body.col-sm-9 {
-	                   width: 79%;
-	               }
-
-	               .cv-container article .article-body {
-	                   margin: 0;
-	               }
-
-	               .cv-container article.chart .article-headings,.cv-container article.chart .article-body {
-	                   float: none;
-	                   padding: 0;
-	                   width: 100%;
-	               }
-
-	               .cv-container #references .article-body {
-	                   padding-left: 0;
-	               }
-
-	               .cv-container .user-thumb {
-	                   width: 15%;
-	                   float: right;
-	                   min-width: 100px;
-	                   margin-bottom: 1em;
-	                   border: 1px solid #0b5394;
-	                   -webkit-box-shadow: 1px 1px 3px 0 #ccc;
-	                   box-shadow: 1px 1px 3px 0 #ccc;
-	               }
-
-	               .cv-container .user-contact li,.cv-container .user-links li {
-	                   font-size: 95%;
-	                   margin-bottom: .25em;
-	                   overflow: visible;
-	                   white-space: nowrap;
-	                   display: inline-block;
-	               }
-
-	               .cv-container .user-links li {
-	                   margin-right: .5em;
-	               }
-
-	               .cv-container .user-contact li:before {
-	                   content: "|";
-	                   color: #ccc;
-	                   margin: 0 .25em;
-	               }
-
-	               .cv-container .user-contact li:first-child:before {
-	                   content: initial;
-	               }
-
-	               @media (max-width: 768px) {
-	                   .cv-container .vcard {
-	                       text-align: center;
-	                   }
-
-	                   .cv-container .user-contact {
-	                       padding: 0;
-	                   }
-
-	                   .cv-container .user-thumb {
-	                       position: relative;
-	                       margin: 1em auto !important;
-	                       display: block;
-	                       float: none !important;
-	                       width: auto;
-	                       max-width: 150px;
-	                   }
-	               }
-
-	               .cv-container .user-links i {
-	                   opacity: .75;
-	               }
-
-	               .cv-container .user-thumb {
-	                   float: left;
-	                   margin-right: 1em;
-	               }
-
-	               .cv-container .edit-new {
-	                   width: 100%;
-	                   margin-bottom: 10px;
-	               }
-
-	               .cv-container .portfolio .row {
-	                   margin-left: -5px;
-	                   margin-right: -5px;
-	               }
-
-	               .cv-container .portfolio .col-sm-4 {
-	                   padding-left: 5px;
-	                   padding-right: 5px;
-	               }
-
-	               .cv-container .portfolio .asset .asset-description {
-	                   display: none;
-	               }
-
-	               .cv-container .portfolio label {
-	                   font-weight: 700;
-	                   margin-bottom: 5px;
-	                   margin-top: 5px;
-	                   min-height: 1.5em;
-	               }
-
-	               .cv-container .portfolio .css-crop {
-	                   width: 100%;
-	                   padding-bottom: 75%;
-	                   background-size: cover;
-	                   background-position: center center;
-	                   border: 1px solid #0b5394;
-	                   -webkit-box-shadow: 1px 1px 3px 0 #ccc;
-	                   box-shadow: 1px 1px 3px 0 #ccc;
-	               }
-
-	               .cv-container .portfolio a label {
-	                   cursor: pointer;
-	               }
-
-	               .cv-container .sidebar .portfolio .asset {
-	                   padding-left: 0;
-	                   padding-right: 0;
-	               }
-
-	               @media (min-width: 768px) {
-	                   .cv-container .sidebar .portfolio label {
-	                       text-align: left;
-	                   }
-
-	                   .cv-container .sidebar .portfolio .asset,.cv-container .sidebar .portfolio .asset-thumb {
-	                       width: 100%;
-	                   }
-
-	                   .cv-container .sidebar .portfolio .asset-description {
-	                       display: block;
-	                   }
-
-	                   .cv-container .sidebar .portfolio .css-crop {
-	                       border: 0;
-	                       padding: 0;
-	                       height: auto;
-	                       background-image: none !important;
-	                       -webkit-box-shadow: none;
-	                       box-shadow: none;
-	                   }
-
-	                   .cv-container .sidebar .portfolio .css-crop img {
-	                       display: block !important;
-	                   }
-	               }
-
-	               .cv-container .competency .competency-bar {
-	                   margin: .5em 0 .75em;
-	                   width: 100%;
-	                   background-color: #dedede;
-	                   border-radius: 2px;
-	                   height: 8px;
-	                   -webkit-transform: skewX(-45deg);
-	                   -ms-transform: skewX(-45deg);
-	                   -moz-transform-origin: skewX(-45deg);
-	                   -o-transform-origin: skewX(-45deg);
-	                   transform: skewX(-45deg);
-	               }
-
-	               .cv-container .competency .competency-level {
-	                   background-color: #0b5394;
-	                   border-radius: 2px;
-	                   height: 100%;
-	               }
-
-	               .cv-container .competency .article-headings {
-	                   float: left;
-	                   width: 33%;
-	               }
-
-	               .cv-container .competency .article-body {
-	                   padding-left: 0;
-	                   float: right;
-	                   width: 65%;
-	               }
-
-	               @media (max-width: 768px) {
-	                   .cv-container .summary-text {
-	                       padding: 0;
-	                   }
-
-	                   .cv-container article .article-headings,.cv-container article .article-body {
-	                       padding-left: 0;
-	                       width: 100% !important;
-	                   }
-	               }
-
-	               .pdf .cv-container .chart-container {
-	                   width: 850px !important;
-	               }
-
-	               .pdf .cv-container .cv-content {
-	                   padding: 0;
-	               }
-
-	               .pdf .cv-container .portfolio .css-crop {
-	                   box-shadow: none;
-	               }
-
-	               .pdf .cv-container .user-thumb {
-	                   box-shadow: none;
-	               }
-	                           li {
-	                                   padding-bottom: 8px !important;
-	                           }
-	                           .mce-content-body table td {
-	                               width: 50%;
-	                           }
-	                           ul.user-links.user-websites {
-	                               font-size: 12px;
-	                           }
-	</style>
-
-	<div>
-		<link href=
-		"less/monaco76cb.css?%40primary=%230b5394&amp;%40body-font-size=15px&amp;%40section-margins=1.5em"
-		rel="stylesheet" type="text/css">
-
-		<div class="cv-container animated fadeIn">
-			<div class="cv-content single-column">
-				<section class="profile" data-bind="sections" id="profile">
-					<article class="vcard" data-bind="content">
-						<img class="user-thumb photo" data-bind="thumb" src="#">
-
-						<div class="fn user-title">
-							<h1 class="full-name" data-bind="full_name"><span class=
-							"undefined needsclick" contenteditable="false" data-placeholder=
-							"Full Name">Seth Calkins</span>
-							</h1>
-						</div>
-
-
-						<h2 class="title" data-bind="headline"><span class="undefined needsclick"
-						contenteditable="false" data-placeholder=
-						"Headline / Current Title">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
-						&nbsp;&quot;Give me some goals and I'll over deliver&quot;</span>
-						</h2>
-
-
-						<ul class="user-contact">
-							<li class="adr locality" data-bind="location"><span class=
-							"undefined needsclick" contenteditable="false" data-placeholder=
-							"Location">Noblesville, IN</span>
-							</li>
-
-
-							<li class="phone" data-bind="phone"><span class="undefined needsclick"
-							contenteditable="false" data-placeholder="Phone">(317) 800-9798</span>
-							</li>
-
-
-							<li class="email" data-bind="email"><span class="undefined needsclick"
-							contenteditable="false" data-placeholder=
-							"Email">SethCalkins@Me.com</span>
-							</li>
-
-
-							<li class="email" data-bind="email"><span class="undefined needsclick"
-							contenteditable="false" data-placeholder="Email">DOB: Nov. 09,
-							1988</span>
-							</li>
-						</ul>
-
-
-						<div class="user-links user-websites" data-bind="websites" style=
-						"margin-left: 2em">
-							http://sethcalkins.me/Personality-Profile
-						</div>
-					</article>
-				</section>
-
-
-				<section class="text_story" data-bind="sections" id=
-				"text_story_CL6tbC1ZGv">
-					<header>
-						<h3 class="header-text" data-bind="label"><span class=
-						"undefined needsclick" contenteditable="false" data-placeholder=
-						"Text Section">Ideal Environment</span>
-						</h3>
-					</header>
-
-
-					<article data-bind="content">
-						<div class=" mce-content-body" id="react-tinymce-514952" spellcheck=
-						"true">
-							<p style="text-align: center;"><strong>Small business</strong> allowing
-							me to contribute to the success and growth of the company,
-							<strong>fulfill my need to learn</strong>, and <strong>solve</strong>
-							complex <strong>problems</strong> by <strong>implementing</strong>
-							unique and unconventional <strong>solutions.</strong></p>
-
-
-							<p style="text-align: center;">
-							</p>
-
-
-							<table>
-								<tbody>
-									<tr>
-										<td style="text-align: center;">
-											<p><span style="">Personality Traits</span>
-											</p>
-										</td>
-
-										<td style="text-align: center;"><span style="">Value to the
-										Organization</span>
-										</td>
-									</tr>
-
-
-									<tr>
-										<td>
-											<ul>
-												<li style="text-align: left;">Take challenges head-on; Innovative
-												in <strong>solving complex problems</strong> in dynamic
-												situations.</li>
-
-
-												<li>Adept in analyzing business needs in multiple industries and
-												recommending effective solutions.</li>
-
-
-												<li style="text-align: left;">Ambitious in my approach to
-												<strong>troubleshooting</strong>, displaying a strong will and need
-												to win against all obstacles.</li>
-
-
-												<li style="text-align: left;">Ability to <strong>ask</strong> the
-												right <strong>questions</strong> and <strong>destroy</strong> a
-												<strong>shallow idea</strong>.</li>
-
-
-												<li style="text-align: left;">Appreciation for numbers, building
-												data models, and using empirical evidence to justify decisions and
-												strategy development.</li>
-
-
-												<li style="text-align: left;">Reputation for devising new ways to
-												solve old problems.</li>
-
-
-												<li>Identify the needle in a haystack and quickly conceptualize
-												opportunities and their potential impact on business metrics.</li>
-											</ul>
-										</td>
-
-										<td>
-											<ul>
-												<li>Strong history of designing groundbreaking solutions that
-												drastically improve operational performance and productivity.</li>
-
-
-												<li>Functional knowledge of Sales and Marketing Operations,
-												Inventory Management and other CRM processes.</li>
-												<!--                                                <li>Can isolate individual problem components of a situation and
-                                                remedy them.</li>
--->
-
-
-												<li>Innovative leader with progressive experience combining
-												expertise in operational strategy, process improvement, and
-												information systems management to drive operational excellence for
-												world-class organizations.</li>
-
-
-												<li>Talent for <strong>integrating</strong> the
-												<strong>past</strong>, <strong>present</strong> and
-												<strong>future</strong>.</li>
-
-<!--
-												<li>Thrive on flawless tactical execution. The details matter and anything less than perfection bothers me.</li>
-											-->
-											</ul>
-										</td>
-									</tr>
-								</tbody>
-							</table>
-						</div>
-					</article>
-				</section>
-
-
-				<section class="dated_story" data-bind="sections" id="positions">
-					<header>
-						<h3 class="header-text" data-bind="label"><span class=
-						"undefined needsclick" contenteditable="false" data-placeholder=
-						"Work History">Experience</span>
-						</h3>
-					</header>
-
-
-					<article data-bind="contents">
-						<div class="article-headings">
-							<h6 class="date-range"><span data-bind="start_date"><span class=
-							"undefined needsclick" contenteditable="false" data-placeholder=
-							"YYYY">2015 - Present</span></span>
-							</h6>
-						</div>
-
-
-						<div class="article-body">
-							<h4 data-bind="title"><span class="undefined needsclick"
-							contenteditable="false" data-placeholder="job title">Business
-							Development</span>
-							</h4>
-
-
-							<div data-bind="organization_url" rel="nofollow">
-								<h5 data-bind="organization"><span class="undefined needsclick"
-								contenteditable="false" data-placeholder="job title"><span class=
-								"undefined needsclick" contenteditable="false" data-placeholder=
-								"organization">Liquid Communications</span></span>
-								</h5>
-							</div>
-
-
-							<div class=" mce-content-body" id="react-tinymce-514953">
-								<ul>
-									<li><span>Develop proper planning of corporate infrastructure by
-									<strong>prioritizing IT investments</strong>, performing risk
-									mitigation, managing internal software development and application
-									deployment, and providing technical project oversight.</span>
-									</li>
-
-
-									<li>Identify new technologies, products, and equipment to support
-									business operations; Managing procurement processes, and ensuring
-									seamless introduction of new technology and equipment into existing
-									infrastructure.</li>
-
-
-									<li><span>Exceptional analysis and recommendation capability;
-									Proactively identify <strong>trends</strong> and
-									<strong>opportunities</strong> to <strong>increase</strong>
-									<strong>profitability</strong>, stay ahead of business, and keep the
-									team informed, focusing on future profitability impacts.</span>
-									</li>
-
-
-									<li><span><strong>Develop</strong> and incorporate pricing, sales and
-									sales channel creation, service development, cost reduction, and
-									<strong>technology strategies</strong>.</span>
-									</li>
-
-
-									<li><span>Strategically managed all aspects of company infrastructure,
-									application, support, and security. Shaped and managed implementation
-									of company IT strategy. Educated staff on proper use of technology
-									through delivery of engaging and effective change management
-									programs.</span>
-									</li>
-
-
-									<li><span>Provide relevant support to senior management in order
-									to <strong>identify strategic goals</strong>,
-									<strong>objectives</strong>, <strong>scope</strong>,
-									<strong>budgets</strong>, and <strong>processes</strong> for project
-									development.</span>
-									</li>
-
-
-									<li><span>Utilize effective problem solving skills in
-									<strong>developing solution</strong> documentation, analyzing
-									solutions, and validating IT to meet business goals and objectives as
-									well as effectively manage change requests.</span>
-									</li>
-
-
-									<li><span>Facilitate the design and implementation of new/improved
-									process models to ensure milestones are met and results are
-									achieved.</span>
-									</li>
-								</ul>
-							</div>
-						</div>
-					</article>
-
-
-					<p>
-					</p>
-
-
-					<article data-bind="contents">
-						<div class="article-headings">
-							<h6 class="date-range"><span data-bind="start_date"><span class=
-							"undefined needsclick" contenteditable="false" data-placeholder=
-							"YYYY">03/2014</span></span><span data-bind="end_date">05/2015<span class=
-							"undefined needsclick" contenteditable="false" data-placeholder=
-							"YYYY"></span></span>
-							</h6>
-						</div>
-
-
-						<div class="article-body">
-							<h4 data-bind="title"><span class="undefined needsclick"
-							contenteditable="false" data-placeholder="job title">System
-							Analyst</span>
-							</h4>
-
-
-							<div data-bind="organization_url" rel="nofollow">
-								<h5 data-bind="organization"><span class="undefined needsclick"
-								contenteditable="false" data-placeholder="organization">Creative
-								Solutions Consulting</span>
-								</h5>
-							</div>
-
-
-							<div class=" mce-content-body" id="react-tinymce-514954" spellcheck=
-							"true">
-								<ul>
-									<li><span>Utilized troubleshooting and analytical skills to develop
-									viable IT solutions to reduce operational expenses and boost company's
-									competitive edge.</span>
-									</li>
-
-
-									<li><span>Oversaw the effective <strong>provisioning</strong>,
-									<strong>installation/configuration</strong>,
-									<strong>operation</strong>, and <strong>maintenance</strong> of
-									<strong>systems hardware and software</strong> and related
-									<strong>infrastructure</strong> in compliance with DoD security
-									policies.</span>
-									</li>
-
-
-									<li><span>Ensured maintenance of <strong>network
-									infrastructure</strong> including Internet connections, perimeter
-									equipment, Network switches, Wireless access.</span>
-									</li>
-
-
-									<li><span>Provided primary support for initial triage resolution,
-									including both Windows 8, 8.1; Windows 10, Windows RT, Android and,
-									iOS devices.</span>
-									</li>
-
-
-									<li><span>Orchestrated the ongoing support of the Windows server
-									hosting infrastructure.</span>
-									</li>
-
-
-									<li><span>Oversaw the Active Directory and Exchange servers, including
-									system administrator engineering and provisioning, operations and
-									support, maintenance, and research and development to ensure continual
-									innovation.</span>
-									</li>
-
-
-									<li><span>Initiated, planned, and supervised the design and
-									configuration of DARPA contractors workstations including site-to-site VPN, VPN User-Access, rules to block ports, and applied web
-									filters to user/groups.</span>
-									</li>
-
-
-									<li><span>Conducted research on targeted companies and passive
-									candidates, <strong>leveraging</strong> <strong>undocumented</strong>
-									<strong>API's</strong>.</span>
-									</li>
-
-
-									<li style="list-style: none">
-									</li>
-								</ul>
-							</div>
-						</div>
-					</article>
-
-
-					<p>
-					</p>
-
-
-					<article data-bind="contents">
-						<article data-bind="contents">
-							<div class="article-headings">
-								<h6 class="date-range">03/2014 - 05/2015</h6>
-							</div>
-
-
-							<div class="article-body">
-								<h4 data-bind="title"><span class="undefined needsclick"
-								contenteditable="false" data-placeholder="job title">Personal
-								Development Specialist</span>
-								</h4>
-
-
-								<div data-bind="organization_url" rel="nofollow">
-									<h5 data-bind="organization"><span class="undefined needsclick"
-									contenteditable="false" data-placeholder="organization">Creative
-									Solutions Consulting</span>
-									</h5>
-								</div>
-
-
-								<div class=" mce-content-body" id="react-tinymce-514955" spellcheck=
-								"true">
-									<ul>
-										<li><span>Successfully placed .NET Developers (C#, ASP.net,
-										JavaScript, TFS, WebServices etc.), Java/J2EE Developers, Solutions
-										and Enterprise Architects, Business Analyst, PMP Project Managers,
-										C/C++ Developers, C/Unix Developers, Unix/Linux Systems
-										Administrators, Mobile Device Managers, Storage Administrators,
-										Android and iOS developers, designers and test engineers etc.</span>
-										</li>
-
-
-										<li><span>Sourced, identified, and assessed top-notch candidates for
-										a diverse range of technical skill levels and functional areas across
-										several geographies. Utilized innovative sourcing strategies to
-										attract the best and brightest talent.</span>
-										</li>
-
-
-										<li><span>Collaborated with hiring managers and other members of the
-										recruiting team to develop and lead recruiting efforts, effectively
-										generate qualified leads targeted in tough-to-fill Information
-										technology markets.</span>
-										</li>
-
-
-										<li><span>Assisted with recruitment advertising, incorporating
-										employment brand while recommending new sites/tools to drive timely
-										and cost-efficient hiring with the best talent on the market.</span>
-										</li>
-
-
-										<li><span>Ensured continuous research on recruitment marketing tools
-										and resources so as to make first class recommendations available to
-										the team.</span>
-										</li>
-
-
-										<li><span>Explored Job Boards i.e. Monster, Dice, CareerBuilder,
-										LinkedIn, Indeed, etc. to source and identify qualified
-										candidates.</span>
-										</li>
-
-
-										<li><span>Chaired the phone screening and interviewing of candidates
-										in order to judge qualifications per REQ's requirements.</span>
-										</li>
-
-
-										<li><span>Tailored and dubbed resumes to fit client's expectations of
-										"suitable" format.</span>
-										</li>
-
-
-										<li><span>Established and maintained effective communication with
-										candidates and contractors throughout submittal, interviewing and
-										hiring process as well as while on the job to maintain relationship
-										and build trust.</span>
-										</li>
-									</ul>
-								</div>
-							</div>
-						</article>
-
-
-						<p>
-						</p>
-
-
-						<article data-bind="contents">
-							<div class="article-headings">
-								<h6 class="date-range">10/2011 - 03/2014</h6>
-							</div>
-
-
-							<div class="article-body">
-								<h4 data-bind="title"><span class="undefined needsclick"
-								contenteditable="false" data-placeholder="job title">Strategic Market
-								Development and Sales</span>
-								</h4>
-
-
-								<div data-bind="organization_url" rel="nofollow">
-									<h5 data-bind="organization"><span class="undefined needsclick"
-									contenteditable="false" data-placeholder="organization">Indycom</span>
-									</h5>
-								</div>
-
-
-								<div class=" mce-content-body" id="react-tinymce-514956" spellcheck=
-								"true">
-									<ul>
-										<li><span><strong>Conceptualized</strong> a highly effective
-										<strong>customer database system</strong>;to track leads, customers,
-										emails, phone calls, meetings, reminders, and sales opportunities,
-										resulting in a <strong>60% increase of repeat
-										customers</strong>.</span>
-										</li>
-
-
-										<li>Designed and developed procedures for timely and appropriate
-										record keeping, billing, data management, statistical analysis and
-										information system reports. Maintained CRM / Inventory database.</li>
-
-
-										<li><span>Exhibited great competency in the
-										<strong>development</strong> and <strong>execution</strong> of
-										<strong>new business ideas</strong> and gained repeat business from
-										clients.</span>
-										</li>
-
-
-										<li><span>Converted prospects to clients through daily cold calling;
-										based on the population of a targeted area with 50-100 calls per
-										day.</span>
-										</li>
-
-
-										<li><span>Recognized for the ability to quickly establish rapport
-										with customers and build a loyal clientele; making note of personal
-										references to build positive customer relationships. Established 205
-										new customers nationally since January 2013 exceeding any expectation
-										of the company's vision.</span>
-										</li>
-
-
-										<li><span>Chaired and negotiated business transactions, discussed
-										equipment values with potential customers based on current market
-										value.</span>
-										</li>
-
-
-										<li><span>Utilized excellent listening skills in assessing comments
-										of customers, identified their needs and educated them on the
-										benefits attached to products and services of the company.</span>
-										</li>
-									</ul>
-								</div>
-							</div>
-						</article>
-					</article>
-				</section>
-
-
-				<div data-bind="add-section-btn">
-					<span class="undefined needsclick" contenteditable="false"
-					data-placeholder="add-section-btn"></span>
-				</div>
-
-
-				<template id="profile">
-					<article class="vcard" data-bind="content">
-						<img class="user-thumb photo" data-bind="thumb">
-
-						<div class="fn user-title">
-							<h1 class="full-name" data-bind="full_name">
-							</h1>
-						</div>
-
-
-						<h2 class="title" data-bind="headline">
-						</h2>
-
-
-						<ul class="user-contact">
-							<li class="adr locality" data-bind="location">
-							</li>
-
-
-							<li class="phone" data-bind="phone">
-							</li>
-
-
-							<li class="email" data-bind="email">
-							</li>
-						</ul>
-
-
-						<ul class="user-links user-websites" data-bind="websites">
-						</ul>
-					</article>
-				</template>
-
-
-				<template id="dated_story">
-					<header>
-						<h3 class="header-text" data-bind="label">
-						</h3>
-					</header>
-
-
-					<article data-bind="contents">
-						<div class="article-headings">
-							<h6 class="date-range"><span data-bind=
-							"start_date"></span><span data-bind="end_date"></span>
-							</h6>
-						</div>
-
-
-						<div class="article-body">
-							<h4 data-bind="title">
-							</h4>
-
-
-							<div data-bind="organization_url" rel="nofollow">
-								<h5 data-bind="organization">
-								</h5>
-							</div>
-
-
-							<p data-bind="description">
-							</p>
-						</div>
-					</article>
-				</template>
-
-
-				<template id="strengths">
-					<header>
-						<h3 class="header-text" data-bind="label">
-						</h3>
-					</header>
-
-
-					<article class="competency" data-bind="contents">
-						<div class="article-headings">
-							<h6 data-bind="name">
-							</h6>
-						</div>
-
-
-						<div class="article-body">
-							<div class="competency-bar">
-								<div class="competency-level" data-bind="level">
-								</div>
-							</div>
-
-
-							<p data-bind="description">
-							</p>
-						</div>
-
-
-						<div class="clearfix">
-						</div>
-					</article>
-				</template>
-
-
-				<template id="portfolio">
-					<header>
-						<h3 class="header-text" data-bind="label">
-						</h3>
-					</header>
-
-
-					<article class="portfolio" data-bind="content">
-						<div data-bind="description">
-							<p>PortfolioDescription</p>
-						</div>
-
-
-						<div class="row gallery">
-							<div class="asset col-sm-4" data-bind="assets">
-								<a class="asset-thumb" data-bind="file_url" target="_blank">
-								<div class="asset-overlay">
-								</div>
-
-
-								<div class="css-crop bg-cover">
-								</div></a>
-
-								<div data-bind="link_url" rel="nofollow">
-									<label class="text-center ellipsis" data-bind="title"></label>
-								</div>
-							</div>
-						</div>
-					</article>
-				</template>
-
-
-				<template id="text_story">
-					<header>
-						<h3 class="header-text" data-bind="label">
-						</h3>
-					</header>
-
-
-					<article data-bind="content">
-						<p data-bind="description">
-						</p>
-					</article>
-				</template>
-
-
-				<template id="chart">
-					<header>
-						<h3 class="header-text" data-bind="label">
-						</h3>
-					</header>
-
-
-					<article class="chart" data-bind="content">
-						<div class="article-headings">
-							<h4 data-bind="title">
-							</h4>
-						</div>
-
-
-						<div class="article-body">
-							<p data-bind="description">
-							</p>
-
-
-							<div class="chart-graph" data-bind="chart">
-							</div>
-						</div>
-
-
-						<div class="clearfix">
-						</div>
-					</article>
-				</template>
-			</div>
-		</div>
-	</div>
-	<!--
-        <script src=
-    "http://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js">
-    </script>
-    <script src=
-    "http://cdnjs.cloudflare.com/ajax/libs/raphael/2.1.0/raphael-min.js">
-    </script>
-    <script src=
-    "http://cdnjs.cloudflare.com/ajax/libs/morris.js/0.5.1/morris.min.js">
-    </script>
-    <script src="app/js/lib/jquery.cv.js">
-    </script>
--->
+<body><script id="__bs_script__">//<![CDATA[
+    document.write("<script async src='browser-sync/browser-sync-client.2.14.0.js'><\/script>".replace("HOST", location.hostname));
+//]]></script>
+
+  <div id='resume-container'>
+    <div class='header card'>
+      <h1 id='name'>
+          Seth Calkins
+        </h1>
+      <span class='term'>&quot;Give me some goals and I&#x27;ll over deliver&quot;</span>
+    </div>
+    <div class='left-content'>
+      <section class='card'>
+        <div class='section-header'>Contact</div>
+        <div class='section-content' id='contact'>
+          <div class='contact'>
+            <div class='address'>
+              Noblesville, Indiana, US
+            </div>
+            <div class='email'>
+              <a href='mailto:sethcalkins@me.com'>sethcalkins@me.com</a>
+            </div>
+              
+            <div class='site'>
+              <a href='https://www.linkedin.com/in/sethmcalkins'>https://www.linkedin.com/in/sethmcalkins</a>
+            </div>
+              
+            <div class='phone-number last'>
+              <a href="tel:(317) 800-9798">(317) 800-9798</a>
+            </div>
+          </div>
+        </div>
+      </section>
+       
+      <section class='card'>
+        <div class='section-header'>Technical Skills</div>
+        <div class='section-content' id='technical-skills'>
+          <div id='skills-container'>
+            <div class='skills'>
+              <div class='skill'>Business &amp; IT Planning</div>
+               
+              <div class="level">
+                <em>Master</em>
+              </div>
+               
+              <p>
+                 Process Improvement,  Requirements Analysis,  Marketing Strategies,  Lead &amp; Opportunity Generation,  Information Gathering,  Problem Solving,  Network Planning,  IT Troubleshooting &amp; Triage,  Web Development, 
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+       
+      <section class='card'>
+        <div class='section-header'>Education</div>
+        <div class='section-content' id='education'>
+          <div class='education last'>
+            <div class='education-info'>
+              <div class='title'>
+                 in General Studies
+                <br>at  Ivy Tech Community College 
+              </div>
+              <div class='duration'>
+                 Jan 2010   - Jan 2012 
+              </div>
+            </div>
+            <div class='grade'>Grade: 4.0</div>
+          </div>
+        </div>
+      </section>
+           </div>
+    <div class='right-content'>
+      <section class='card'>
+        <div class='section-header'>Summary</div>
+        <div class='section-content' id='summary'>
+          Visionary strategist with 6+ years of experience leading small to mid-sized businesses in increasing revenues, reducing costs, and improving efficiency. Passionate about leading strategic, transformational technology initiatives that both solve business problems and advance architecture toward desired-state. Keen ability leveraging technology to achieve strategic goals. Innovative and creative problem solver with a passion for implementing process improvement. Solid business acumen, &#x60;big picture&#x27; perspective, and capacity to exercise sound, independent judgement informed by critical and analytical thinking. Unmistakable professional integrity, unparalleled work ethic, and commitment to excellence.
+        </div>
+      </section>
+      <section class='card'>
+        <div class='section-header'>Employment</div>
+        <div class='section-content' id='employment'>
+          <div class='employment'>
+            <div class='employment-info'>
+              <div class='title'>
+                <a href='#'>
+                  		Liquid Communications
+                  	</a>   IT Business Analyst 
+              </div>
+              <div class='duration'>
+                 May 2015   - Present 
+              </div>
+            </div>
+            <div class='info'>
+              <div class="summary">
+                Identify new technologies, products, and equipment to support business operations, managing procurement processes, and ensuring seamless introduction of new technology and equipment into existing infrastructure.
+              </div>
+               
+              <ul class="list">
+                <li>Develop proper planning of corporate infrastructure by prioritizing IT investments, performing risk mitigation, managing internal software development and application deployment, and providing technical project oversight.</li>
+                <li>Facilitate the design and implementation of new/improved process models to ensure milestones are met and results are achieved.</li>
+                <li>Exceptional analysis and recommendation capability; Proactively identify trends and opportunities to increase profitability, stay ahead of business, and keep the team informed, focusing on future profitability impacts.</li>
+                <li>Develop and incorporate pricing, sales and sales channel creation, service development, cost reduction, and technology strategies.</li>
+                <li>Strategically managed all aspects of company infrastructure, application, support, and security. Shaped and managed implementation of company IT strategy. Educated staff on proper use of technology through delivery of engaging and effective change management programs.</li>
+                <li>Provide relevant support to the senior management in order to identify strategic goals, objectives, scope, budgets, and processes for project development.</li>
+                <li>Utilize effective problem solving skills in developing solution documentation, analyzing solutions, and validating IT to meet business goals and objectives as well as effectively manage change requests.</li>
+              </ul>
+            </div>
+          </div>
+          <div class='employment'>
+            <div class='employment-info'>
+              <div class='title'>
+                <a href='#'>
+                  		Creative Solutions Consulting
+                  	</a>   System Analyst 
+              </div>
+              <div class='duration'>
+                 Mar 2014   - May 2015 
+              </div>
+            </div>
+            <div class='info'>
+              <div class="summary">
+                Keen ability to leverage technology to achieve strategic goals
+              </div>
+               
+              <ul class="list">
+                <li>Develop viable IT solutions to reduce operational expenses and boost company&#x27;s competitive edge.</li>
+                <li>Oversaw the effective provisioning, installation/configuration, operation, and maintenance of systems hardware and software and related infrastructure in compliance with DoD security policies.</li>
+                <li>Responsible for installing, configuring, monitoring, maintaining, and troubleshooting hardware and software applications, including servers, desktops, laptops, and, smartphones.</li>
+                <li>Initiated, planned, and supervised the design and configuration of DARPA contractors&#x27; workstations VPN site-to-site, and User VPN access, created access rules to block ports, applied web filters to users or groups, switching ISP&#x27;s or static IP addresses.</li>
+                <li>Assisted with recruitment advertising, incorporating employment brand while recommending new sites/tools to drive timely and cost-efficient hiring with the best talent on the market.</li>
+                <li>Collaborated with members of the recruiting team to develop and lead recruiting efforts, effectively generate qualified leads targeted in tough-to-fill Information technology markets.</li>
+                <li>Ensured maintenance of network infrastructure including Internet connections, perimeter equipment, Network switches, Wireless access.</li>
+                <li>Orchestrated the ongoing support of the Windows server hosting infrastructure.</li>
+                <li>Oversaw the Active Directory and Exchange servers, including system administrator engineering and provisioning, operations and support, maintenance, and research and development to ensure continual innovation.</li>
+                <li>Conducted research on targeted companies and passive candidates, leveraging undocumented API&#x27;s.</li>
+                <li>Ensured continuous research on recruitment marketing tools and resources to make first class recommendations available to the team.</li>
+              </ul>
+            </div>
+          </div>
+          <div class='employment'>
+            <div class='employment-info'>
+              <div class='title'>
+                <a href='#'>
+                  		Indycom
+                  	</a>   Business Development, Strategy &amp; Planning 
+              </div>
+              <div class='duration'>
+                 Oct 2011   - Mar 2014 
+              </div>
+            </div>
+            <div class='info'>
+              <div class="summary">
+                Developed and lead the Business Development team in sourcing, managing, and implementing new business opportunities.
+              </div>
+               
+              <ul class="list">
+                <li>Planned, designed and implemented, physical and logical network infrastructure based on business analysis, including, LAN Server, website deployment/design, email, desktop/mobile device management/deployment, VOIP phone system.</li>
+                <li>Perform analysis and propose ways to enhance the companies digital media image (websites, social media, directory listings) on an ongoing basis, to reach more clientele by tapping into areas not formerly utilized.</li>
+                <li>Designed a highly effective customer database system to track leads, customers, emails, phone calls, meetings, reminders, and opportunities.</li>
+                <li>Designed and developed procedures for timely and appropriate record keeping, billing, data management, invoices, and information system reports.</li>
+                <li>Developed Social Media strategies and policies; Implemented, maintained, and analyzed marketing campaigns.</li>
+                <li>Exceptional analysis and recommendation capability; Proactively identify trends and opportunities to increase profitability, stay ahead of business, and keep the team informed, focusing on future profitability impacts.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+            </div>
+  </div>
 </body>
+
+
+<!-- Mirrored from localhost:4001/ by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 23 Aug 2016 20:48:16 GMT -->
 </html>

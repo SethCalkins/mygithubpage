@@ -1,0 +1,140 @@
+{
+  "basics": {
+    "name": "Seth Calkins",
+    "label": "\"Give me some goals and I'll over deliver\"",
+    "picture": "",
+    "email": "sethcalkins@me.com",
+    "phone": "(317) 800-9798",
+    "website": "http://sethcalkins.me/Personality-Profile",
+    "summary": "Determined Problem solver specializing in Web Development, SEO, Marketing Strategies, Lead and Opportunity Generation,  Process Improvement, information Gathering, Database Design and implementation, IT infrastructure implementation and maintenance and, IT troubleshooting and triage.",
+    "location": {
+      "address": "",
+      "postalCode": "46060",
+      "city": "Noblesville",
+      "countryCode": "US",
+      "region": "IN"
+    },
+    "profiles": [
+      {
+        "network": "LinkedIn",
+        "username": "SethMCalkins",
+        "url": "https://www.linkedin.com/in/sethmcalkins"
+      }
+    ]
+  },
+  "work": [
+    {
+      "company": "Liquid Communications",
+      "position": "IT Business Analyst",
+      "website": "",
+      "startDate": "2015-01-05",
+      "endDate": "",
+      "summary": "Identify new technologies, products, and equipment to support business operations, managing procurement processes, and ensuring seamless introduction of new technology and equipment into existing infrastructure.",
+      "highlights": [
+        "Develop proper planning of corporate infrastructure by prioritizing IT investments, performing risk mitigation, managing internal software development and application deployment, and providing technical project oversight.",
+        "Facilitate the design and implementation of new/improved process models to ensure milestones are met and results are achieved.",
+        "Exceptional analysis and recommendation capability; Proactively identify trends and opportunities to increase profitability, stay ahead of business, and keep the team informed, focusing on future profitability impacts.",
+        "Develop and incorporate pricing, sales and sales channel creation, service development, cost reduction, and technology strategies.",
+        "Strategically managed all aspects of company infrastructure, application, support, and security. Shaped and managed implementation of company IT strategy. Educated staff on proper use of technology through delivery of engaging and effective change management programs.",
+        "Provide relevant support to the senior management in order to identify strategic goals, objectives, scope, budgets, and processes for project development.",
+        "Utilize effective problem solving skills in developing solution documentation, analyzing solutions, and validating IT to meet business goals and objectives as well as effectively manage change requests."
+      ]
+    },
+    {
+      "company": "Creative Solutions Consulting",
+      "position": "System Analyst",
+      "website": "",
+      "startDate": "2014-03-01",
+      "endDate": "2015-05-01",
+      "summary": "",
+      "highlights": [
+        "Develop viable IT solutions to reduce operational expenses and boost company's competitive edge.",
+        "Oversaw the effective provisioning, installation/configuration, operation, and maintenance of systems hardware and software and related infrastructure in compliance with DoD security policies.",
+        "Provided primary support for initial triage resolution, including both Windows 8, 8.1; Windows 10, Windows RT, Android and, iOS devices.",
+        "Initiated, planned, and supervised the design and configuration of DARPA contractors' workstations VPN site-to-site s and User VPN access, created access rules to block ports, applied web filters to users or groups, switching ISP's or static IP addresses.",
+        "Assisted with recruitment advertising, incorporating employment brand while recommending new sites/tools to drive timely and cost-efficient hiring with the best talent on the market.",
+        "Collaborated with members of the recruiting team to develop and lead recruiting efforts, effectively generate qualified leads targeted in tough-to-fill Information technology markets.",
+        "Ensured maintenance of network infrastructure including Internet connections, perimeter equipment, Network switches, Wireless access.",
+        "Orchestrated the ongoing support of the Windows server hosting infrastructure.",
+        "Oversaw the Active Directory and Exchange servers, including system administrator engineering and provisioning, operations and support, maintenance, and research and development to ensure continual innovation.",
+        "Conducted research on targeted companies and passive candidates, leveraging undocumented API's.",
+        "Ensured continuous research on recruitment marketing tools and resources so as to make first class recommendations available to the team."
+      ]
+    },
+    {
+      "company": "Indycom",
+      "position": "Project Manager, Information Technology",
+      "website": "",
+      "startDate": "2011-10-01",
+      "endDate": "2014-03-01",
+      "summary": "Improved company profits and productivity by leveraging Information Technology.",
+      "highlights": [
+        "Planned, Designed and Implemented, Physical and Logical Network Infrastructure based on the company needs, including,  LAN Server, Website Deployment/Design, Email, Desktop / Mobile Device Management/Deployment, VOIP Phone System",
+        "Designed a highly effective customer database system; to track leads, customers, emails, phone calls, meetings, reminders, and opportunities.",
+        "Designed and developed procedures for timely and appropriate record keeping, billing, data management, invoices and information system reports. ",
+        "Developed Social Media strategies and policies; Implemented, maintained and analyzed marketing campaigns."
+      ]
+    }
+  ],
+  "volunteer": [],
+  "education": [
+    {
+      "institution": "Ivy Tech Community College",
+      "area": "General Studies",
+      "studyType": "",
+      "startDate": "2010-01-01",
+      "endDate": "2012-01-01",
+      "gpa": "4.0",
+      "courses": []
+    }
+  ],
+  "awards": [],
+  "publications": [
+    {
+      "name": "DISC Personality Profile",
+      "publisher": "",
+      "releaseDate": "",
+      "website": "http://sethcalkins.me/personality-profile.html",
+      "summary": "Personality Profile"
+    }
+  ],
+  "skills": [
+    {
+      "name": "Business & IT Planning",
+      "level": "Master",
+      "keywords": [
+        "Process Improvement",
+        "Requirements Analysis",
+        "Marketing Strategies",
+        "Lead & Opportunity Generation",
+        "Information Gathering",
+        "Problem Solving",
+        "Network Planning",
+        "IT Troubleshooting & Triage",
+        "Web Development"
+      ]
+    }
+  ],
+  "languages": [],
+  "interests": [
+    {
+      "name": "Outdoors",
+      "keywords": [
+        "Hiking",
+        "Camping",
+        "Rock Climbing",
+        "Backpacking"
+      ]
+    },
+    {
+      "name": "Learning",
+      "keywords": [
+        "Technology Trends",
+        "Open Source API's",
+        "Making difficult tasks easier through technology",
+        "Woodworking"
+      ]
+    }
+  ],
+  "references": []
+}

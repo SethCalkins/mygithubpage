@@ -1,0 +1,620 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta content="IE=edge" http-equiv="X-UA-Compatible">
+	<meta content="width=device-width, initial-scale=1" name="viewport">
+	<title>Seth Calkins</title>
+  <!-- Google Fonts -->
+	<link href="https://fonts.googleapis.com/css?family=Fredoka+One" rel="stylesheet" type="text/css">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300italic,400,400italic,600,600italic,700,700italic,800,800italic" rel="stylesheet" type="text/css">
+	<link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:300,400,700" rel="stylesheet" type="text/css">
+	<link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700" rel="stylesheet">
+
+  <!-- Custom CSS -->
+
+  <!-- Icon Fonts -->
+	<link href="fonts/map-icons/css/map-icons.min.css" rel="stylesheet" type="text/css">
+	<link href="fonts/icomoon/style.css" rel="stylesheet" type="text/css">
+
+  <!-- Styles -->
+	<link href="awwwards.css" media="screen" rel="stylesheet" type="text/css">
+	<link href="js/plugins/jquery.bxslider/jquery.bxslider.css" rel="stylesheet" type="text/css">
+	<link href="js/plugins/jquery.customscroll/jquery.mCustomScrollbar.min.css" rel="stylesheet" type="text/css">
+	<link href="js/plugins/jquery.mediaelement/mediaelementplayer.min.css" rel="stylesheet" type="text/css">
+	<link href="js/plugins/jquery.fancybox/jquery.fancybox.css" rel="stylesheet" type="text/css">
+	<link href="js/plugins/jquery.owlcarousel/owl.carousel.css" rel="stylesheet" type="text/css">
+	<link href="js/plugins/jquery.owlcarousel/owl.theme.css" rel="stylesheet" type="text/css">
+	<link href="js/plugins/jquery.optionpanel/option-panel.css" rel="stylesheet" type="text/css">
+	<link href="style.css" rel="stylesheet" type="text/css">
+	<link href="colors/theme-color.css" rel="stylesheet" type="text/css">
+	<style>
+  strong {
+  	font-family: 'Roboto',sans-serif;
+  	font-style: normal;
+  	font-weight: bold;;
+  }
+
+  body {
+	font-family: 'Roboto',sans-serif;
+	font-weight: 300;
+  }
+
+  p {
+  	display: inline;
+  }
+
+  a,span {
+  	text-decoration: none;
+  }
+
+  .email,.site,.github,.phone-number,.address {
+	font-size: 1em;
+  }
+
+  div.email a {
+  	font-family: Roboto,sans-serif;
+  	font-size: 16px;
+  	color: #3d4451;
+  	font-style: normal;
+  	font-weight: 300;
+  	line-height: 35px;
+  }
+
+  div.email {
+  	font-family: Roboto,sans-serif;
+  	font-size: 16px;
+  	line-height: 21.6px;
+  	color: #3d4451;
+  	font-style: normal;
+  	font-weight: 300;
+  }
+
+  div.site a {
+  	font-family: Roboto,sans-serif;
+  	font-size: 16px;
+  	line-height: 35px;
+  	color: #3d4451;
+  	font-style: normal;
+  	font-weight: 300;
+  }
+
+  div.phone-number.last a {
+  	font-family: Roboto,sans-serif;
+  	font-size: 16px;
+  	line-height: 35px;
+  	color: #3d4451;
+  	font-style: normal;
+  	font-weight: 300;
+  }
+
+  #name span {
+	font-family: "Roboto",sans-serif;
+	line-height: 39.6px;
+	color: #07cb79;
+	font-style: normal;
+	font-weight: 400;
+  }
+
+  div.skill {
+  	font-family: "Open Sans",sans-serif;
+  	font-size: 18px;
+  	line-height: 19.8px;
+  	color: #3d4451;
+  	font-style: normal;
+  	font-weight: 400;
+  }
+
+  div.header.card {
+  	background-color: #fff;
+  }
+
+  html {
+  	background-color: #fff;
+  }
+
+  body {
+  	background-color: #fff;
+  }
+
+  html,html body {
+  	background-color: #fff;
+  }
+
+  ul.list li {
+	font-family: "Roboto", sans-serif;
+	font-size: 1em;
+	color: #000000;
+	font-style: normal;
+	font-weight: 300;
+  }
+
+  div.address {
+  	font-family: Roboto,sans-serif;
+  	font-size: 16px;
+  	color: #3d4451;
+  	font-style: normal;
+  	font-weight: 300;
+  }
+
+  ul {
+  	margin-top: 0;
+  	margin-bottom: 0;
+  }
+
+  .card {
+	/*background-color: #fefefe;
+  	         box-shadow: 1px 1px 14px -5px rgba(0,0,0,0.5);
+  	         border-radius: 2px;*/
+	margin-bottom: 15px;
+  }
+
+  .header.card {
+  	margin-top: 15px;
+  	margin-right: 15px;
+  	display: flex;
+  	-webkit-box-align: center;
+  	-webkit-align-items: center;
+  	-ms-flex-align: center;
+  	align-items: center;
+  	-webkit-box-pack: justify;
+  	-webkit-justify-content: space-between;
+  	-ms-flex-pack: justify;
+  	justify-content: space-between;
+  	padding: 0 15px 0 20px;
+  	border-bottom: 1px dashed #CFCFCF;
+  }
+
+  section.card {
+	/* [disabled]padding-top: 10px; */
+	/* [disabled]padding-right: 15px; */
+	/* [disabled]padding-left: 20px; */
+	/* [disabled]padding-bottom: 22.5px; */
+  }
+
+  .header {
+  	overflow: auto;
+  	margin-left: 6px;
+  	margin-right: 12px;
+  }
+
+  .skill {
+  	font-family: 'Roboto',sans-serif;
+  	font-size: 1em;
+  	margin-bottom: .4em;
+  	color: #4c92c1;
+  	font-weight: 400;
+  }
+
+  .skills p {
+  	font-size: 1em;
+  }
+
+  span.term {
+  	font-family: "Open Sans",sans-serif;
+  	line-height: 39.6px;
+  	color: #3d4451;
+  	font-style: normal;
+  	font-weight: 300;
+  }
+
+  div.section-header {
+    font-family: "Open Sans",sans-serif;
+    line-height: 1.2;
+    color: #3d4451;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.8em;
+    text-transform: none;
+}
+
+  div.duration {
+	font-family: "Roboto", Sans Serif;
+	font-size: 0.9em;
+	line-height: 16px;
+	color: #07cb79;
+	font-style: normal;
+	font-weight: bold;
+  }
+
+  div.title a {
+	font-family: Roboto, sans-serif;
+	font-size: 16px;
+	line-height: 20.8px;
+	color: #07cb79;
+	font-style: normal;
+	font-weight: bold;
+  }
+
+  div.title {
+	font-family: "Roboto", sans serif;
+	font-size: 16px;
+	color: #07cb79;
+	font-style: normal;
+	font-weight: bold;
+  }
+
+  #name {
+  	font-family: 'Roboto',sans-serif;
+  	font-weight: 100;
+  	color: #3d4451;
+  	font-size: 3em;
+  	float: left;
+  	margin: .1em .1em .2em;
+  }
+
+  #resume-container {
+  	width: 900px;
+  	margin: 0 auto;
+  }
+
+  .section-header {
+	margin-bottom: .4em;
+	font-family: 'Open Sans';
+	font-weight: 400;
+	font-size: 1em;
+  }
+
+  .left-content {
+  	float: left;
+  	width: 32%;
+  	margin-left: 6px;
+  }
+
+  .left-content .section-header {
+    font-family: "Open Sans",sans-serif;
+    line-height: 1.2;
+    color: #3d4451;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.8em;
+    text-transform: none;
+  }
+
+  .left-content .card {
+  	border-bottom: 1px dashed #CFCFCF;
+  }
+
+  .right-content {
+  	width: 64%;
+  	margin-right: 15px;
+  	float: right;
+  }
+
+  .right-content {
+  	border-left: 1px dashed #CFCFCF;
+  }
+
+  .section-content {
+  	overflow: auto;
+  }
+
+  .title {
+	margin-bottom: .2em;
+	display: flex;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	-ms-flex-pack: justify;
+	justify-content: space-between;
+	color: #07cb79;
+  }
+
+  .duration {
+	font-family: 'Roboto',sans-serif;
+	font-weight: 300;
+	margin-top: 0.2em;
+	margin-bottom: .3em;
+	/* [disabled]margin-left: 1.5em; */
+	font-size: 0.9em;
+  }
+
+  .occupation {
+  	font-size: 1em;
+  	font-family: 'Roboto',sans-serif;
+  	font-weight: 400;
+  	margin-bottom: .5em;
+  }
+
+  .languages {
+  	font-family: 'Roboto',sans-serif;
+  	font-size: 1em;
+  	font-weight: 300;
+  }
+
+  .list {
+  	list-style-type: none;
+  	font-size: 1em;
+  }
+
+  .location {
+  	font-size: 1em;
+  	font-weight: 300;
+  	margin-bottom: .1em;
+  }
+
+  .left {
+  	float: left;
+  	width: 45%;
+  	clear: both;
+  }
+
+  .right {
+  	float: right;
+  	width: 55%;
+  }
+
+  ul.list {
+	list-style-type: disc;
+	padding-left: 1.1rem;
+  }
+
+  ul.list li {
+  	line-height: 135%;
+  	margin-bottom: .2em;
+  }
+
+  ul.list li:before {
+  	display: inline-block;
+  	width: 0;
+  	margin-left: 0;
+  }
+
+  .project,.employment,.education,.skills {
+	margin-bottom: .8em;
+	margin-top: 10px;
+  }
+
+  .education-info .title {
+  	margin-bottom: .2em;
+  	line-height: 130%;
+  }
+
+  .education.last {
+  	margin-bottom: .8em;
+  }
+
+  .education .grade {
+  	font-size: 1em;
+  }
+
+  .project-info {
+  	display: flex;
+  	-webkit-box-pack: justify;
+  	-webkit-justify-content: space-between;
+  	-ms-flex-pack: justify;
+  	justify-content: space-between;
+  }
+
+  .last {
+  	margin-bottom: 0;
+  }
+
+  .term {
+  	font-size: 1.75em;
+  	font-weight: 200;
+  	color: #000;
+  }
+
+  #skills-container,.contact {
+  	margin-bottom: 0;
+  }
+
+  .interests,.subtitle {
+  	font-size: 1em;
+  	margin-bottom: .2em;
+  }
+
+  .project .title,.employment .title {
+  }
+
+  .employment .summary {
+  	font-size: 1em;
+  	margin-bottom: .4em;
+  }
+
+  #awards .summary {
+  	font-size: 1em;
+  }
+
+  #summary {
+  	font-size: 1em;
+  }
+
+  .contact .site {
+  	font-size: .9em;
+  }
+	.title1 {	margin-bottom: .2em;
+	display: flex;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	-ms-flex-pack: justify;
+	justify-content: space-between;
+}
+div.title1 {	font-family: Roboto, sans-serif;
+	font-size: 16px;
+	color: #07cb79;
+	font-style: normal;
+	font-weight: 500;
+}
+    </style>
+</head>
+<body>
+<div id='resume-container'>
+  <div class='header card'>
+			<h1 id='name'>Seth<span>Calkins</span></h1><span class='term'>&quot;Give me some goals and I&#x27;ll over deliver&quot;</span>
+  </div>
+		<div class='left-content'>
+			<section class='card'>
+			  <div class='section-header'>
+					Contact
+				</div>
+			  <div class='section-content' id='contact'>
+					<div class='contact'>
+						<div class='address'>
+							12647 Strawflower LN<br>
+							Noblesville, IN 46060<br>
+						</div>
+						<div class='email'>
+							<a href='mailto:sethcalkins@me.com'>sethcalkins@me.com</a>
+						</div>
+						<div class='site'>
+							<a href='linkedin.com/in/sethmcalkins'>linkedin.com/in/sethmcalkins</a>
+						</div>
+						<div class='phone-number last'>
+							<a href="tel:(317)%20800-9798">(317) 800-9798</a>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class='card'>
+			  <div class='section-header'>
+					Technical Skills
+				</div>
+				<div class='section-content' id='technical-skills'>
+					<div id='skills-container'>
+					  <div class='skills'>
+							<div class='skill'>
+								Business &amp; IT Planning
+							</div>
+							<ul>
+								<li style="list-style: none; display: inline">
+									<p></p>
+								</li>
+								<li>Process Improvement</li>
+								<li>Requirements Analysis</li>
+								<li>Marketing Strategies</li>
+								<li>Lead &amp; Opportunity Generation</li>
+								<li>Information Gathering</li>
+								<li>Problem Solving</li>
+								<li>Network Planning</li>
+								<li>IT Troubleshooting &amp; Triage</li>
+								<li>Web Development</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class='card'>
+			  <div class='section-header'>
+					Education
+				</div>
+				<div class='section-content' id='education'>
+				  <div class='education last'>
+						<div class='education-info'>
+							<div>
+								General Studies<br>
+								Ivy Tech Community College
+							</div>
+							<div>
+                Jan 2010 - Jan 2012
+              </div>
+
+						</div>
+						<div class='grade'>
+							Grade: 4.0
+						</div>
+					</div>
+				</div>
+			</section>
+		</div>
+		<div class='right-content'>
+			<section class='card'>
+			  <div class='section-header'>
+					Summary
+				</div>
+				<div class='section-content' id='summary'>
+					Visionary strategist with 6+ years of experience leading small to mid-sized businesses in <strong>increasing revenues</strong>, <strong>reducing costs</strong>, and <strong>improving efficiency</strong>. Passionate about leading strategic, transformational technology initiatives that both <strong>solve business problems</strong> and advance architecture toward desired-state. <strong>Innovative</strong> and <strong>creative</strong> <strong>problem solver</strong> with a passion for implementing <strong>process improvement</strong>. Solid business acumen, &#x60;big picture&#x27; perspective, and capacity to exercise sound, independent judgement informed by critical and analytical thinking. Unmistakable professional integrity, unparalleled work ethic, and commitment to excellence.
+				</div>
+			</section>
+			<section class='card'>
+				<div class="timeline">
+					<div class="timeline-bar"></div>
+				  <div class='section-header'>
+						Work Experience
+					</div>
+					<div class='section-content' id='employment'>
+					  <div class='employment'>
+							<div class='employment-info'>
+								<div class='title'>
+									<a>Liquid Communications</a> IT Business Analyst
+								</div>
+<div class='duration'>
+					May 2015 - Present
+				</div>
+							</div>
+							<div class='info'>
+								<div class="summary">
+									Identify new technologies, products, and equipment to support business operations, managing procurement processes, and ensuring seamless introduction of new technology and equipment into existing infrastructure.
+								</div>
+								<ul class="list">
+								  <li>Develop proper planning of corporate infrastructure by prioritizing IT investments, performing risk mitigation, managing internal software development and application deployment, and providing technical project oversight.</li>
+								  <li>Facilitate the <strong>design</strong> and <strong>implementation</strong> of new/improved <strong>process</strong> <strong>models</strong> to ensure milestones are met and results are achieved.</li>
+								  <li>Exceptional <strong>analysis</strong> and <strong>recommendation</strong> capability; Proactively <strong>identify trends</strong> and <strong>opportunities</strong> to <strong>increase</strong> <strong>profitability</strong>, stay ahead of business, and keep the team informed, focusing on future profitability impacts.</li>
+								  <li><strong>Develop</strong> and incorporate pricing, <strong>sales</strong> and sales channel creation, <strong>service</strong> <strong>development</strong>, <strong>cost</strong> <strong>reduction</strong>, and technology strategies.</li>
+								  <li>Strategically <strong>manage</strong> <strong>all</strong> aspects of <strong>company</strong> <strong>infrastructure</strong>, application, support, and security. Shaped and managed implementation of company <strong>IT strategy</strong>. Educated staff on proper use of technology through delivery of engaging and effective change management programs.</li>
+								  <li>Provide relevant support to the senior management in order to identify strategic goals, objectives, scope, budgets, and processes for project development.</li>
+									<li>Utilize effective problem solving skills in developing solution documentation, analyzing solutions, and validating IT to meet business goals and objectives as well as effectively manage change requests.</li>
+								</ul>
+							</div>
+						</div>
+					  <div class='employment'>
+							<div class='employment-info'>
+								<div class='title'>
+									<a href=''>Creative Solutions Consulting</a> System Analyst
+								</div>
+								<div class='duration'>
+									Mar 2014 - May 2015
+								</div>
+							</div>
+							<div class='info'>
+								<div class="summary">
+									Keen ability to leverage technology to achieve strategic goals
+								</div>
+								<ul class="list">
+									<li>Developed viable IT solutions to reduce operational expenses and boost company&#x27;s competitive edge.</li>
+									<li>Oversaw the effective provisioning, installation/configuration, operation, and maintenance of systems hardware and software and related infrastructure in compliance with DoD security policies.</li>
+									<li>Responsible for installing, configuring, monitoring, maintaining, and troubleshooting hardware and software applications, including servers, desktops, laptops, and, smartphones.</li>
+									<li>Initiated, planned, and supervised the design and configuration of DARPA contractors&#x27; workstations VPN site-to-site, and User VPN access, created access rules to block ports, applied web filters to users or groups, switching ISP&#x27;s or static IP addresses.</li>
+									<li>Assisted with recruitment advertising, incorporating employment brand while recommending new sites/tools to drive timely and cost-efficient hiring with the best talent on the market.</li>
+									<li>Collaborated with members of the recruiting team to develop and lead recruiting efforts, effectively generate qualified leads targeted in tough-to-fill Information technology markets.</li>
+									<li>Ensured maintenance of network infrastructure including Internet connections, perimeter equipment, Network switches, Wireless access.</li>
+									<li>Orchestrated the ongoing support of the Windows server hosting infrastructure.</li>
+									<li>Oversaw the Active Directory and Exchange servers, including system administrator engineering and provisioning, operations and support, maintenance, and research and development to ensure continual innovation.</li>
+									<li>Conducted research on targeted companies and passive candidates, leveraging undocumented API&#x27;s.</li>
+									<li>Ensured continuous research on recruitment marketing tools and resources to make first class recommendations available to the team.</li>
+								</ul>
+							</div>
+						</div>
+					  <div class='employment'>
+							<div class='employment-info'>
+								<div class='title'>
+									<a href=''>Indycom</a> Business Development, Strategy &amp; Planning
+								</div>
+								<div class='duration'>
+									Oct 2011 - Mar 2014
+								</div>
+							</div>
+							<div class='info'>
+								<div class="summary">
+									Developed and lead the Business Development team in sourcing, managing, and implementing new business opportunities.
+								</div>
+								<ul class="list">
+									<li>Planned, designed and implemented, physical and logical network infrastructure based on business analysis, including, LAN Server, website deployment/design, email, desktop/mobile device management/deployment, VOIP phone system.</li>
+									<li>Performed analysis and proposed ways to enhance the companies digital media image (websites, social media, directory listings) on an ongoing basis, to reach more clientele by tapping into areas not formerly utilized.</li>
+									<li>Designed a highly effective customer database system to track leads, customers, emails, phone calls, meetings, reminders, and opportunities.</li>
+									<li>Designed and developed procedures for timely and appropriate record keeping, billing, data management, invoices, and information system reports.</li>
+									<li>Developed Social Media strategies and policies; Implemented, maintained, and analyzed marketing campaigns.</li>
+									<li>Exceptional analysis and recommendation capability; Proactively identified trends and opportunities to increase profitability, stay ahead of business, and keep the team informed, focusing on future profitability impacts.</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+		</div>
+</div>
+<div class="timeline-box timeline-box-right"> <span class="dot"></span>
+
+</div>
+</body>
+</html>

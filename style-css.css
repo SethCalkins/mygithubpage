@@ -1,3 +1,21 @@
+@media print {
+div.page-break {
+  page-break-before: always;
+}
+}
+
+@media all {
+div.page-break {
+  display: none;
+}
+}
+
+@media print {
+div.page-break {
+  display: block;
+  page-break-before: always;
+}
+}
 html, html body {
     font-family: 'RobotoDraft', 'Roboto', 'Helvetica Neue, Helvetica, Arial', sans-serif !important;
     font-style: normal !important;
